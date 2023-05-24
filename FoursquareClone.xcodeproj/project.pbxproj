@@ -90,10 +90,10 @@
 		BFC16F9E297C1FD8005E79E4 /* FoursquareClone */ = {
 			isa = PBXGroup;
 			children = (
-				BFF12C6A297EED31008E4A79 /* MODEL */,
-				BFF12C67297EECE5008E4A79 /* VC */,
 				BFC16F9F297C1FD8005E79E4 /* AppDelegate.swift */,
 				BFC16FA1297C1FD8005E79E4 /* SceneDelegate.swift */,
+				BFF12C6A297EED31008E4A79 /* MODEL */,
+				BFF12C67297EECE5008E4A79 /* VC */,
 				BFC16FA5297C1FD8005E79E4 /* Main.storyboard */,
 				BFC16FA8297C1FDC005E79E4 /* Assets.xcassets */,
 				BFC16FAA297C1FDC005E79E4 /* LaunchScreen.storyboard */,

@@ -28,6 +28,8 @@ class DetailsVC: UIViewController, MKMapViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        view.backgroundColor = .systemBackground
+        
        getData()
         
         detailsMap.delegate = self

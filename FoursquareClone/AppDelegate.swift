@@ -24,6 +24,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         Parse.initialize(with: configuration)
         
+        
+        UIFont.familyNames.forEach({name in
+            for font_name in UIFont.fontNames(forFamilyName: name){
+                print("\n\(font_name)")
+            }
+        })
+        
+        
         return true
     }
 
